@@ -16,6 +16,10 @@
         transform: translateX(-50%);
         height: 100%;
         z-index: 0;
+
+        @media (max-width: @content-width-md) {
+            background-position-y: 0;
+        }
     }
 
     &__overlay {
@@ -68,6 +72,11 @@
         margin: 12px auto 0;
         transform: translateX(5px);
         background-image: url('../img/phone.png');
+        background-repeat: no-repeat;
+
+        @media (max-width: @content-width-md) {
+            height: 745px;
+        }
     }
 
     &__car {
