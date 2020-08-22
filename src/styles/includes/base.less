@@ -1,0 +1,19 @@
+@import '../vars/colors.less';
+
+body {
+    font-weight: 400;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: @body-background-color;
+}
+
+.app-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 1080px;
+    min-width: @content-min-width;
+}
