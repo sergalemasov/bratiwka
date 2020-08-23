@@ -11,5 +11,7 @@ var app = {
         }
 
         window.addEventListener('orientationchange', setViewport);
+
+        setViewport();
     }
 };
